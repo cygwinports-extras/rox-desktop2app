@@ -1,6 +1,12 @@
 ORIG_PN=Desktop2App
 inherit rox
 
+NAME="rox-desktop2app"
+VERSION=0.1.4
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX tool to create AppDir from .desktop menu"
+
 HOMEPAGE="http://www.kerofin.demon.co.uk/rox/desktop2app.html"
 SRC_URI="http://www.kerofin.demon.co.uk/rox/${ORIG_PN}-${PV}.tar.gz"
 SRC_DIR=.
